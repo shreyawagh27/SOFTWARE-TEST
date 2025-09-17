@@ -15,6 +15,5 @@ def test_checkout():
     assert checkout(200) == "Order placed! Total = 200"  # Old checkout feature
 
 
-## shop testing using pytest
 
-#hello world!
+
