@@ -8,12 +8,12 @@ def test_add_to_cart():
     assert add_to_cart(100, 2) == 200    # Old cart feature
     
 def test_apply_coupon():
-    assert apply_coupon(500-50)==450  #new feature
+    assert apply_coupon(500, 50) == 450  # New feature should work
 
 
 def test_checkout():
     assert checkout(200) == "Order placed! Total = 200"  # Old checkout feature
 
 
-
+# hello 
 
