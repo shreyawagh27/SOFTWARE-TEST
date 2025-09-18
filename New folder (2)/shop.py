@@ -8,6 +8,7 @@ def add_to_cart(price, qty):
     return price * qty 
 
 
+# ✅ New Feature Added
 def apply_coupon(total, discount):
     return total - discount
 
